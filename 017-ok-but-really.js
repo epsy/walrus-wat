@@ -1,14 +1,14 @@
 function myfunc() {
-    let isitme;
-    isitme = function () {
+    function isitme() {
         return "it's a me, mario";
-    };
+    }
 
     console.log(isitme());
 
-    isitme = function() {
+    function isitme() {
         return "it's a me, luigi";
     }
 }
 
 myfunc()
+

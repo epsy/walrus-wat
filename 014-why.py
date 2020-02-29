@@ -10,3 +10,5 @@ another line
 # a comment
 not a comment
 """.split("\n"))
+
+# Practicality beats purity
